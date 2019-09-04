@@ -1,0 +1,11 @@
+WHILE=1
+IF=2
+Delim=3
+INT=4
+REA=5
+Var=6
+'while'=1
+'if'=2
+':'=3
+'INT'=4
+'REAL'=5
