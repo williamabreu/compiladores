@@ -8,7 +8,7 @@ public class HashTableTest {
         $hs.put("0xFF03", "Três");
         System.out.println($hs);
 
-        String addr = $hs.get("0xFF02");
+        String addr = $hs.get("0xFF026");
         System.out.println(addr);
     }
 }
