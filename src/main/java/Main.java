@@ -31,83 +31,83 @@ public class Main {
                 Token token = scanner.nextToken();
                 switch (token.getType()) {
                     case Scanner.DEC:
-                        tokens.add(new ParsedToken(token.getType(), "DEC", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "DEC", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.ALG:
-                        tokens.add(new ParsedToken(token.getType(), "ALG", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "ALG", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.INT:
-                        tokens.add(new ParsedToken(token.getType(), "INT", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "INT", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.REA:
-                        tokens.add(new ParsedToken(token.getType(), "REA", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "REA", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.ATR:
-                        tokens.add(new ParsedToken(token.getType(), "ATR", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "ATR", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.LER:
-                        tokens.add(new ParsedToken(token.getType(), "LER", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "LER", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.IMP:
-                        tokens.add(new ParsedToken(token.getType(), "IMP", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "IMP", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.SE:
-                        tokens.add(new ParsedToken(token.getType(), "SE", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "SE", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.ENT:
-                        tokens.add(new ParsedToken(token.getType(), "ENT", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "ENT", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.ENQ:
-                        tokens.add(new ParsedToken(token.getType(), "ENQ", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "ENQ", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.INI:
-                        tokens.add(new ParsedToken(token.getType(), "INI", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "INI", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.FIM:
-                        tokens.add(new ParsedToken(token.getType(), "FIM", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "FIM", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.A:
-                        tokens.add(new ParsedToken(token.getType(), "A", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "A", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.OpArit:
-                        tokens.add(new ParsedToken(token.getType(), "OpArit", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "OpArit", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.OpRel:
-                        tokens.add(new ParsedToken(token.getType(), "OpRel", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "OpRel", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.Delim:
-                        tokens.add(new ParsedToken(token.getType(), "Delim", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "Delim", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.AP:
-                        tokens.add(new ParsedToken(token.getType(), "AP", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "AP", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.FP:
-                        tokens.add(new ParsedToken(token.getType(), "FP", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "FP", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.Var:
                         String identifier = token.getText();
                         if (symbolTable.get(identifier) == null) {
                             symbolTable.put(token.getText(), id++);
                         }
-                        tokens.add(new ParsedToken(token.getType(), "Var", symbolTable.get(identifier)));
+                        tokens.add(new ParsedToken(token.getType(), "Var", symbolTable.get(identifier), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.NumI:
-                        tokens.add(new ParsedToken(token.getType(), "NumI", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "NumI", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.NumR:
-                        tokens.add(new ParsedToken(token.getType(), "NumR", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "NumR", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.Str:
-                        tokens.add(new ParsedToken(token.getType(), "Str", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "Str", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.NEWLINE:
-                        tokens.add(new ParsedToken(token.getType(), "NEWLINE", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "NEWLINE", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.WS:
-                        tokens.add(new ParsedToken(token.getType(), "WS", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "WS", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                     case Scanner.COMMENT:
-                        tokens.add(new ParsedToken(token.getType(), "COMMENT", token.getText()));
+                        tokens.add(new ParsedToken(token.getType(), "COMMENT", token.getText(), token.getLine(), token.getCharPositionInLine(), token.getText()));
                         break;
                 }
             }
@@ -121,6 +121,11 @@ public class Main {
             System.out.println(token);
         }
 
-        System.out.println(symbolTable);
+        System.out.println("------------------");
+        System.out.println("Tabela de símbolos");
+        System.out.println("------------------");
+        symbolTable.forEach((key, value) -> {
+            System.out.printf("%d => %s\n", value, key);
+        });
     }
 }

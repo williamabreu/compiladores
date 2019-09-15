@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6e7fab3d-8bcd-436a-9066-f6927d10326e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HashTableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HashTableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/gen/Scanner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/teste.alguma" beforeDir="false" afterPath="$PROJECT_DIR$/src/teste.alguma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HashTableTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HashTableTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ParsedToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ParsedToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Scanner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ParsedToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ParsedToken.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +42,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
